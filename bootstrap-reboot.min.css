@@ -1,0 +1,306 @@
+html {
+	line-height: 1.15; font-family: sans-serif; box-sizing: border-box; -ms-text-size-adjust: 100%; -ms-overflow-style: scrollbar; -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent;
+}
+* {
+	box-sizing: inherit;
+}
+::after {
+	box-sizing: inherit;
+}
+::before {
+	box-sizing: inherit;
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+dialog {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+main {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+body {
+	margin: 0px; color: rgb(33, 37, 41); line-height: 1.5; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; font-size: 1rem; font-weight: 400; background-color: rgb(255, 255, 255);
+}
+[tabindex='-1']:focus {
+	outline: 0px !important;
+}
+hr {
+	height: 0px; overflow: visible; box-sizing: content-box;
+}
+h1 {
+	margin-top: 0px; margin-bottom: 0.5rem;
+}
+h2 {
+	margin-top: 0px; margin-bottom: 0.5rem;
+}
+h3 {
+	margin-top: 0px; margin-bottom: 0.5rem;
+}
+h4 {
+	margin-top: 0px; margin-bottom: 0.5rem;
+}
+h5 {
+	margin-top: 0px; margin-bottom: 0.5rem;
+}
+h6 {
+	margin-top: 0px; margin-bottom: 0.5rem;
+}
+p {
+	margin-top: 0px; margin-bottom: 1rem;
+}
+abbr[data-original-title] {
+	text-decoration: underline; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; cursor: help; -webkit-text-decoration: underline dotted;
+}
+abbr[title] {
+	text-decoration: underline; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; cursor: help; -webkit-text-decoration: underline dotted;
+}
+address {
+	line-height: inherit; font-style: normal; margin-bottom: 1rem;
+}
+dl {
+	margin-top: 0px; margin-bottom: 1rem;
+}
+ol {
+	margin-top: 0px; margin-bottom: 1rem;
+}
+ul {
+	margin-top: 0px; margin-bottom: 1rem;
+}
+ol ol {
+	margin-bottom: 0px;
+}
+ol ul {
+	margin-bottom: 0px;
+}
+ul ol {
+	margin-bottom: 0px;
+}
+ul ul {
+	margin-bottom: 0px;
+}
+dt {
+	font-weight: 700;
+}
+dd {
+	margin-bottom: 0.5rem; margin-left: 0px;
+}
+blockquote {
+	margin: 0px 0px 1rem;
+}
+dfn {
+	font-style: italic;
+}
+b {
+	font-weight: bolder;
+}
+strong {
+	font-weight: bolder;
+}
+small {
+	font-size: 80%;
+}
+sub {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sub {
+	bottom: -0.25em;
+}
+sup {
+	top: -0.5em;
+}
+a {
+	color: rgb(0, 123, 255); text-decoration: none; background-color: transparent; -webkit-text-decoration-skip: objects;
+}
+a:hover {
+	color: rgb(0, 86, 179); text-decoration: underline;
+}
+a:not([href]):not([tabindex]) {
+	color: inherit; text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus {
+	color: inherit; text-decoration: none;
+}
+a:not([href]):not([tabindex]):hover {
+	color: inherit; text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus {
+	outline: 0px;
+}
+code {
+	font-family: monospace,monospace; font-size: 1em;
+}
+kbd {
+	font-family: monospace,monospace; font-size: 1em;
+}
+pre {
+	font-family: monospace,monospace; font-size: 1em;
+}
+samp {
+	font-family: monospace,monospace; font-size: 1em;
+}
+pre {
+	overflow: auto; margin-top: 0px; margin-bottom: 1rem;
+}
+figure {
+	margin: 0px 0px 1rem;
+}
+img {
+	vertical-align: middle;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+[role=button] {
+	-ms-touch-action: manipulation; touch-action: manipulation;
+}
+a {
+	-ms-touch-action: manipulation; touch-action: manipulation;
+}
+area {
+	-ms-touch-action: manipulation; touch-action: manipulation;
+}
+button {
+	-ms-touch-action: manipulation; touch-action: manipulation;
+}
+input {
+	-ms-touch-action: manipulation; touch-action: manipulation;
+}
+label {
+	-ms-touch-action: manipulation; touch-action: manipulation;
+}
+select {
+	-ms-touch-action: manipulation; touch-action: manipulation;
+}
+summary {
+	-ms-touch-action: manipulation; touch-action: manipulation;
+}
+textarea {
+	-ms-touch-action: manipulation; touch-action: manipulation;
+}
+table {
+	border-collapse: collapse;
+}
+caption {
+	text-align: left; color: rgb(134, 142, 150); padding-top: 0.75rem; padding-bottom: 0.75rem; caption-side: bottom;
+}
+th {
+	text-align: left;
+}
+label {
+	margin-bottom: 0.5rem; display: inline-block;
+}
+button:focus {
+	outline: dotted 1px;
+}
+button {
+	margin: 0px; line-height: inherit; font-family: inherit; font-size: inherit;
+}
+input {
+	margin: 0px; line-height: inherit; font-family: inherit; font-size: inherit;
+}
+optgroup {
+	margin: 0px; line-height: inherit; font-family: inherit; font-size: inherit;
+}
+select {
+	margin: 0px; line-height: inherit; font-family: inherit; font-size: inherit;
+}
+textarea {
+	margin: 0px; line-height: inherit; font-family: inherit; font-size: inherit;
+}
+button {
+	overflow: visible;
+}
+input {
+	overflow: visible;
+}
+button {
+	text-transform: none;
+}
+select {
+	text-transform: none;
+}
+[type=reset] {
+	-webkit-appearance: button;
+}
+[type=submit] {
+	-webkit-appearance: button;
+}
+button {
+	-webkit-appearance: button;
+}
+html [type=button] {
+	-webkit-appearance: button;
+}
+input[type=checkbox] {
+	padding: 0px; box-sizing: border-box;
+}
+input[type=radio] {
+	padding: 0px; box-sizing: border-box;
+}
+input[type=date] {
+	-webkit-appearance: listbox;
+}
+input[type=datetime-local] {
+	-webkit-appearance: listbox;
+}
+input[type=month] {
+	-webkit-appearance: listbox;
+}
+input[type=time] {
+	-webkit-appearance: listbox;
+}
+textarea {
+	overflow: auto; resize: vertical;
+}
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; min-width: 0px;
+}
+legend {
+	padding: 0px; width: 100%; color: inherit; line-height: inherit; font-size: 1.5rem; margin-bottom: 0.5rem; display: block; white-space: normal; max-width: 100%;
+}
+progress {
+	vertical-align: baseline;
+}
+[type=search] {
+	-webkit-appearance: none; outline-offset: -2px;
+}
+output {
+	display: inline-block;
+}
+summary {
+	display: list-item;
+}
+template {
+	display: none;
+}
+[hidden] {
+	display: none !important;
+}

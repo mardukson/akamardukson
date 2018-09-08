@@ -1,0 +1,360 @@
+.mbr-gallery .mbr-gallery-item {
+	width: 25%; display: inline-block; position: relative; cursor: pointer;
+}
+@media all and (max-width:768px)
+{
+.mbr-gallery .mbr-gallery-item {
+	width: 50%;
+}
+}
+@media all and (max-width:400px)
+{
+.mbr-gallery .mbr-gallery-item {
+	width: 100%;
+}
+}
+.mbr-gallery .icon-focus {
+	transition:opacity 0.2s ease-in-out; left: calc(50% - 24px); top: calc(50% - 32px); color: rgb(255, 255, 255); font-family: "MobiriseIcons" !important; font-size: 3rem !important; position: absolute; z-index: 5; opacity: 0;
+}
+.mbr-gallery .icon-video {
+	transition:opacity 0.2s ease-in-out; left: calc(50% - 24px); top: calc(50% - 32px); color: rgb(255, 255, 255); font-family: "MobiriseIcons" !important; font-size: 3rem !important; position: absolute; z-index: 5; opacity: 0;
+}
+.mbr-gallery .icon-focus::before {
+	content: "\e96b";
+}
+.mbr-gallery .icon-video::before {
+	content: "\e95c";
+}
+.mbr-gallery .mbr-gallery-item > div:hover .icon-focus {
+	opacity: 1;
+}
+.mbr-gallery .mbr-gallery-item > div:hover .icon-video {
+	opacity: 1;
+}
+.mbr-gallery .mbr-gallery-item img {
+	transition:opacity 0.2s ease-in-out; width: 100%; opacity: 1; -webkit-transition: .2s opacity ease-in-out;
+}
+.mbr-gallery .mbr-gallery-item > div:hover img {
+	opacity: 1;
+}
+.mbr-gallery .mbr-gallery-item > div {
+	background: rgb(255, 255, 255); display: block; position: relative;
+}
+.mbr-gallery .mbr-gallery-item .icon {
+	transition:opacity 0.2s ease-in-out; left: 50%; top: 50%; width: 69px; height: 69px; color: rgb(0, 0, 0); font-size: 30px; position: absolute; opacity: 0; transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); -webkit-transition: .2s opacity ease-in-out;
+}
+.mbr-gallery .mbr-gallery-item .icon::after {
+	width: 1px; height: 69px; margin-left: 34.5px; display: block; position: absolute; content: ""; background-color: rgb(255, 255, 255);
+}
+.mbr-gallery .mbr-gallery-item .icon::before {
+	width: 1px; height: 69px; margin-left: 34.5px; display: block; position: absolute; content: ""; background-color: rgb(255, 255, 255);
+}
+.mbr-gallery .mbr-gallery-item .icon::after {
+	width: 69px; height: 1px; margin-top: 34.5px; margin-left: 0px;
+}
+.mbr-gallery .mbr-gallery-item > div:hover .icon {
+	opacity: 1;
+}
+.mbr-gallery .mbr-gallery-item > div:hover::before {
+	opacity: 0.9;
+}
+.mbr-gallery .mbr-gallery-item > div:hover .mbr-gallery-title {
+	background: none !important;
+}
+.mbr-gallery .no-gutter.mbr-gallery-row {
+	margin: 0px;
+}
+.mbr-gallery .no-gutter.mbr-gallery-row .mbr-gallery-item {
+	padding: 0px;
+}
+.mbr-gallery .mbr-gallery-layout-default.container {
+	padding: 93px 0px;
+}
+.mbr-gallery .mbr-gallery-layout-article {
+	overflow: hidden;
+}
+.mbr-gallery .mbr-gallery-layout-default {
+	overflow: hidden;
+}
+.mbr-gallery .modal {
+	overflow: hidden; padding-right: 0px !important; position: fixed;
+}
+.mbr-gallery .modal-content {
+	background: none; border-radius: 0px; border: currentColor; border-image: none;
+}
+.mbr-gallery .modal-body {
+	padding: 0px;
+}
+.mbr-gallery .modal-body img {
+	width: 100%;
+}
+.mbr-gallery .modal .close {
+	background: rgb(27, 27, 27); border-radius: 50%; border: currentColor; transition:opacity 0.3s; border-image: none; top: 2.5rem; width: 70px; height: 70px; text-align: center; right: 2.5rem; color: rgb(255, 255, 255); line-height: 70px; font-family: "MobiriseIcons"; font-size: 35px; font-weight: 300; position: fixed; z-index: 5; opacity: 0.5; text-shadow: none; -webkit-transition: opacity .3s ease; -moz-transition: opacity .3s ease; -o-transition: opacity .3s ease;
+}
+.mbr-gallery .modal .close::before {
+	content: "\e91a";
+}
+.mbr-gallery .modal .close:hover {
+	background: rgb(0, 0, 0); color: rgb(255, 255, 255); opacity: 1;
+}
+.mbr-gallery .modal-dialog {
+	max-width: 100% !important;
+}
+.mbr-gallery .in.modal .modal-dialog {
+	margin: 0px auto;
+}
+.in.modal-backdrop {
+	opacity: 0.8;
+}
+@media all and (max-width:768px)
+{
+.mbr-gallery .carousel-control {
+	position: fixed;
+}
+.mbr-gallery .carousel-indicators {
+	position: fixed;
+}
+.mbr-gallery .modal .close {
+	position: fixed;
+}
+}
+.mbr-gallery .fade.modal .modal-dialog {
+	transition:margin-top 0.3s ease-out; -webkit-transition: margin-top .3s ease-out; -moz-transition: margin-top .3s ease-out; -o-transition: margin-top .3s ease-out;
+}
+.mbr-gallery .fade.modal .modal-dialog {
+	transform: none; -webkit-transform: none; -o-transform: none;
+}
+.mbr-gallery .in.modal .modal-dialog {
+	transform: none; -webkit-transform: none; -o-transform: none;
+}
+.mbr-slider .carousel-inner > .active {
+	display: table;
+}
+.mbr-slider .carousel-inner > .next {
+	display: table;
+}
+.mbr-slider .carousel-inner > .prev {
+	display: table;
+}
+.mbr-slider .carousel-control {
+	border-radius: 50%; border: 0px currentColor; transition:0.2s ease-in-out; border-image: none; top: 50%; width: 70px; height: 70px; color: rgb(255, 255, 255); line-height: 70px; font-size: 35px; margin-top: -35px; position: absolute; z-index: 5; opacity: 0.5; text-shadow: none; -webkit-transition: all .2s ease-in-out 0s; -o-transition: all .2s ease-in-out 0s;
+}
+.mbr-gallery .mbr-slider .carousel-control {
+	position: fixed;
+}
+@media all and (max-width:991px)
+{
+.mbr-gallery .mbr-slider .carousel-control {
+	top: auto; bottom: 2.5rem; margin-top: 0px; z-index: 17;
+}
+}
+.mbr-gallery .mbr-slider .carousel-inner > .active {
+	display: block;
+}
+.mbr-slider .left.carousel-control {
+	left: 0px; margin-left: 2.5rem;
+}
+.mbr-slider .right.carousel-control {
+	right: 0px; margin-right: 2.5rem;
+}
+.mbr-slider .carousel-control .icon-next {
+	line-height: 27px; font-size: 40px; margin-top: -18px;
+}
+.mbr-slider .carousel-control .icon-prev {
+	line-height: 27px; font-size: 40px; margin-top: -18px;
+}
+.mbr-slider .carousel-control:hover {
+	background: rgb(27, 27, 27); color: rgb(255, 255, 255); opacity: 1;
+}
+.mbr-slider .carousel-indicators {
+	bottom: 0px; margin-bottom: 1.5rem !important; position: absolute;
+}
+@media all and (max-width:543px)
+{
+.mbr-slider .carousel-indicators {
+	display: none;
+}
+}
+.carousel-indicators .active {
+	background: rgb(27, 27, 27); margin: 3px; border: 0px currentColor; border-image: none; width: 15px; height: 15px; opacity: 0.5;
+}
+.carousel-indicators li {
+	background: rgb(27, 27, 27); margin: 3px; border: 0px currentColor; border-image: none; width: 15px; height: 15px; opacity: 0.5;
+}
+.carousel-indicators .active {
+	background: rgb(255, 255, 255); border: 4px solid rgb(27, 27, 27); border-image: none;
+}
+.carousel-indicators li {
+	background: rgb(27, 27, 27); margin: 3px; border-radius: 50%; border: 0px currentColor; border-image: none; max-height: 15px; max-width: 15px; opacity: 0.5;
+}
+.carousel-indicators li.active {
+	background: rgb(255, 255, 255); border: 4px solid rgb(27, 27, 27); border-image: none;
+}
+.container .carousel-indicators {
+	margin-bottom: 3px;
+}
+.mbr-gallery .mbr-slider .carousel-indicators {
+	margin-bottom: 2.5rem !important; position: fixed;
+}
+@media all and (max-width:991px)
+{
+.mbr-gallery .mbr-slider .carousel-indicators {
+	padding-right: 2.5rem; padding-left: 2.5rem; margin-bottom: 3.62rem !important;
+}
+}
+.mbr-slider .carousel-indicators .active {
+	background: rgb(27, 27, 27); margin: 3px; border: 0px currentColor; border-image: none; width: 20px; height: 20px; opacity: 0.5;
+}
+.mbr-slider .carousel-indicators li {
+	background: rgb(27, 27, 27); margin: 3px; border: 0px currentColor; border-image: none; width: 20px; height: 20px; opacity: 0.5;
+}
+.mbr-slider .carousel-indicators .active {
+	background: rgb(255, 255, 255); border: 4px solid rgb(27, 27, 27); border-image: none;
+}
+@media all and (max-width:767px)
+{
+.mbr-slider .carousel-control {
+	top: auto; bottom: 20px;
+}
+.mbr-slider > .container .carousel-control {
+	margin-bottom: 0px;
+}
+}
+.mbr-slider > .boxed-slider {
+	padding: 93px 0px; position: relative;
+}
+.mbr-slider > .boxed-slider > div {
+	position: relative;
+}
+.mbr-slider > .container img {
+	width: 100%;
+}
+.mbr-slider > .container img + .row {
+	left: 0px; top: 50%; right: 0px; position: absolute; z-index: 2; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%);
+}
+.mbr-slider .mbr-section {
+	padding: 0px; background-attachment: scroll;
+}
+.mbr-slider .mbr-table-cell {
+	padding: 0px;
+}
+.mbr-slider > .container .carousel-indicators {
+	margin-bottom: 3px;
+}
+.mbr-slider > .article-slider .mbr-section {
+	padding-top: 0px; padding-bottom: 0px;
+}
+.mbr-slider > .article-slider .mbr-section .mbr-table-cell {
+	padding-top: 0px; padding-bottom: 0px;
+}
+.show.modal-backdrop {
+	opacity: 0.7;
+}
+.video-container .mbr-background-video iframe {
+	width: 100%; height: 100%;
+}
+.mbr-gallery-item__hided {
+	padding: 0px !important; left: 0px !important; width: 0px !important; height: 0px; position: absolute !important;
+}
+.mbr-gallery-item__hided img {
+	display: none !important;
+}
+.mbr-gallery-item__hided span {
+	display: none !important;
+}
+.mbr-gallery-filter {
+	text-align: center; padding-top: 30px; padding-bottom: 30px;
+}
+.mbr-gallery-filter li {
+	padding: 5px 0px; transition:0.3s ease-out; display: inline-block;
+}
+.mbr-gallery-filter li .btn {
+	cursor: pointer;
+}
+.gallery-filter__bg.mbr-gallery-filter li {
+	color: rgb(255, 255, 255);
+}
+.gallery-filter__bg.mbr-gallery-filter .active {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.mbr-gallery-filter ul {
+	list-style: none; width: 100%; padding-left: 0px; margin-bottom: 0px; display: inline-block;
+}
+.mbr-gallery-item > div {
+	position: relative;
+}
+.mbr-gallery-item--p1 {
+	padding: 0.5rem;
+}
+.mbr-gallery-item--p2 {
+	padding: 1rem;
+}
+.mbr-gallery-item--p3 {
+	padding: 1.5rem;
+}
+.mbr-gallery-item--p4 {
+	padding: 2rem;
+}
+.mbr-gallery-item--p5 {
+	padding: 2.5rem;
+}
+.mbr-gallery-item--p6 {
+	padding: 3rem;
+}
+.mbr-gallery .mbr-gallery-item--p4 {
+	width: 33.33%;
+}
+.mbr-gallery .mbr-gallery-item--p6 {
+	width: 50%;
+}
+.mbr-gallery .mbr-gallery-item--p5 {
+	width: 50%;
+}
+@media all and (max-width:992px)
+{
+.mbr-gallery-item--p1 {
+	padding: 0.5rem;
+}
+.mbr-gallery-item--p2 {
+	padding: 0.8rem;
+}
+.mbr-gallery-item--p3 {
+	padding: 1rem;
+}
+.mbr-gallery-item--p4 {
+	padding: 1.5rem;
+}
+.mbr-gallery-item--p5 {
+	padding: 1.8rem;
+}
+.mbr-gallery-item--p6 {
+	padding: 2rem;
+}
+.mbr-gallery .mbr-gallery-item--p2 {
+	width: 50%;
+}
+.mbr-gallery .mbr-gallery-item--p3 {
+	width: 50%;
+}
+.mbr-gallery .mbr-gallery-item--p6 {
+	width: 100%;
+}
+.mbr-gallery .mbr-gallery-item--p5 {
+	width: 100%;
+}
+.mbr-gallery .mbr-gallery-item--p4 {
+	width: 100%;
+}
+}
+@media all and (max-width:400px)
+{
+.mbr-gallery .mbr-gallery-item--p3 {
+	width: 100%;
+}
+.mbr-gallery .mbr-gallery-item--p2 {
+	width: 100%;
+}
+.mbr-gallery .mbr-gallery-item--p1 {
+	width: 100%;
+}
+}
